@@ -1,0 +1,44 @@
+header{
+      background-color: #8f1e6d;
+      text-align: center;
+      text-size-adjust: 18;
+}
+
+a{
+      margin: 30px;
+      text-decoration: none;
+}
+
+a:link{
+      color: #e995d0;
+}
+a:visited{
+      color: #e995d0;
+}
+
+h1{
+      color:#eecae3;
+}
+
+body {
+
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: rgb(190, 37, 127);
+    background-color: #f4e9fa;
+    text-align: center;
+}
+
+p{
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(17, 16, 17);
+      text-align: center;   
+      text-size-adjust: 14;
+}
+
+
+footer{
+      text-align: center;
+      background-color: #e995d0;
+      text-size-adjust: 16;
+}
