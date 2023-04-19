@@ -1,0 +1,88 @@
+body,html{
+    height: 100%;
+    margin:0;
+    background-color: #1f1e32;
+    text-align: center;
+    font-family: cursive;
+    transition: .3s ease all;
+}
+form{
+    text-overflow: clip;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+h1{
+    color: rgb(64, 107, 234);
+}
+footer{
+    text-align: center;
+    color:rgb(8, 7, 7);
+    border-radius: 10px;
+}
+
+.wrapper{
+  height: 100%;
+  background-color:#f5e97b;
+}
+
+.p{
+  color:#000000;
+}
+
+.container-btn-mode{
+  position: fixed;
+  top:580px;
+  right: 630px;
+  cursor: pointer;
+  z-index: 2;
+  font-size:0;
+}
+.btn-mode{
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  border:2px solid black;
+  transition: background-color .5s;
+}
+.btn-mode i {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+.btn-mode.sun{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: 1px solid transparent;
+}
+.btn-mode.moon{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.active{
+  background-color:black;
+  color:#ffcd5c !important;
+}
+
+.dark-mode p{
+  color:rgb(248, 244, 13);
+}
+
+.dark-mode{
+background-color: #000000;
+transition:background-color .5s;
+}
+.dark-mode label{
+color:rgb(2, 250, 229);
+}
+.dark-mode h1{
+color:#e62aad;
+}
+.dark-mode .btn-mode{
+background-color:#1A1C1E;
+border:1px solid white;
+color:white;
+}
+
+
